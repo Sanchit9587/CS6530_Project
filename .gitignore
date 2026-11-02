@@ -1,0 +1,38 @@
+# --- Python ---
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# --- Large or re-downloadable inputs ---
+data/*
+!data/.gitkeep
+*.zip
+
+# --- Authors' tool: clone it, never commit it ---
+third_party/*
+!third_party/.gitkeep
+
+# --- R run leftovers (RTLF writes these next to where you run it) ---
+*.RDATA
+*.Rhistory
+.Rproj.user/
+out*.json
+out*-stats.csv
+
+# --- Temporary / simulated data ---
+/tmp/
+sim_fixture/
+sim_out/
+
+
+# --- OS and editor files ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

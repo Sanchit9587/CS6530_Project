@@ -1,0 +1,5 @@
+numpy>=1.26
+pandas>=2.0
+matplotlib>=3.8      # figures for the report
+reportlab>=4.0       # PDF report build (optional)
+pytest>=8.0
